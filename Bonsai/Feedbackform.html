@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Feedback form</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar_background">
+            <ul class="nav-list">
+                <div class="logo">
+                    <img src="Bonsai-.jpg" alt="">
+                </div>
+                <li><a href="./neha/index.html">Home</a></li>
+                <li><a href="./Products page/products.html">Products</a></li>
+                <li><a href="./aboutus/aboutus.html">About Us</a></li>
+                <li><a href="./Blog/blog.html">Blog</a></li>
+                <li><a href="./research/reseach.html">Research</a></li>
+                <li><a href="./Feedbackform.html">Feedback form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form name="myform" onsubmit="validateform()">
+        <p>Email:<input type="email" name="email"></p>
+        <p>Feedback:<input type="text" name="feedback"></p>
+        <input type="submit" name="validate">
+</body>
+<script type="text/javascript">
+    function validateform() {
+        var email = document.forms['myform']['email'].value;
+        var feedback = document.forms['myform']['feedback'].value;
+        if (email == "" || feedback == "") {
+            alert("All the details have not been filled");
+        }
+        else {
+            alert("Thank you for the feedback")
+        }
+    }
+</script>
+
+<footer>
+    <div class="footerlist">
+        <h3 class="BonsaiStore">Bonsai</h3>
+        <img src="Bonsai-.jpg" alt="">
+
+    </div>
+
+    <div class="contact">
+        <h3 class="Hcontact">Contact</h3>
+        <p><u>bonsaistrore87676@gmail.com</u></p>
+        <p><u>021-45544554</u></p>
+        <p><u>Newroad, Kathmandu</u></p>
+    </div>
+
+    <div class="payment">
+        <h3 class="pay">We accept</h3>
+        <p><u>e-sewa</u></p>
+        <p><u>Fone pay</u></p>
+        <p><u>Khalti</u></p>
+        <p><u>Bank transfer</u></p>
+    </div>
+
+    <div class="socialmed">
+        <h3 class="socmedia">Social Media</h3>
+        <p><u>Facebook</u></p>
+        <p><u>Instagram</u></p>
+        <p><u>Linked-In</u></p>
+
+    </div>
+
+    <div class="developedby">
+        <h3>Developed by</h3>
+        <p><u>Neha Pokhrel</u></p>
+        <p><u>Pritishma Kunwar</u></p>
+        <p><u>Unisha Yokbankong</u></p>
+        <p><u>Dhiraj Giri</u></p>
+        <p><u>Shirish Shrestha</u></p>
+    </div>
+
+</footer>
+
+</html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .nav-list {
+        /* width: 80%; */
+        display: flex;
+        align-items: center;
+        background-color: rgb(45, 243, 48);
+    }
+
+    .logo {
+        display: flex;
+        /* justify-content: center;
+    align-items: center; */
+    }
+
+    .logo img {
+        height: 102px;
+        width: 118px;
+        border-radius: 104px
+    }
+
+    .nav-list li {
+        list-style: none;
+        padding: 40px 40px 34px 48px;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: rgb(9, 8, 8);
+        font-size: 25px;
+    }
+
+    .nav-list li a:hover {
+        color: white;
+    }
+
+    .bckImg {
+        background-image: url(bonss.jpg);
+        /* background-color: #3a3939; */
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .container {
+        position: absolute;
+        top: 25%;
+        left: 19%;
+        /* right: 40%; */
+    }
+
+    .container .Headingtxt {
+        font-size: 50px;
+        text-shadow: green;
+    }
+
+    .container .smalltxt {
+        font-size: 25px;
+    }
+
+    .container input {
+        margin: 25px 19px 0px 6px;
+        padding: 13px 117px 14px 126px;
+        border-radius: 113px;
+        color: rgb(10, 10, 10);
+    }
+
+    .container button {
+        padding: 6px 29px 7px 25px;
+        margin: 26px 0px 0px -14px;
+        border-radius: 20px;
+        border-color: blue;
+    }
+
+    :hover.container button {
+        background-color: green;
+    }
+
+    footer {
+        color: rgb(231, 238, 238);
+        background-color: rgb(16, 16, 15);
+        display: flex;
+        margin: 147px 0px 0px 0px;
+        padding: 81px 0px 0px 161px;
+    }
+
+    .footerlist img {
+        height: 149px;
+        width: 150px;
+        border-radius: 82px;
+    }
+
+    .contact {
+        /* margin: 10px 49px -24px -24px; */
+        padding: 15px 17px 31px 56px;
+    }
+
+    .payment {
+        padding: 10px 20px 30px 40px;
+    }
+
+    .socialmed {
+        padding: 10px 20px 30px 40px;
+    }
+
+    .developedby {
+        padding: 10px 20px 30px 40px;
+    }
+    
+    .element{
+        margin: 10px 19px 30px 40px;
+        padding: 264px 27px 30px 40px; 
+    }
+
+    form input[type="email"],
+    form input[type="text"] {
+        width: 50%;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin: 58px 71px 30px 40px;
+        padding: 12px 11px 28px 40px;
+}
+
+    form input[type="submit"] {
+        width: 20%;
+        padding: 10px;
+        font-size: 18px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>

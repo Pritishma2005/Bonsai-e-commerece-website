@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-list {
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    background-color: rgb(45, 243, 48);
+}
+
+.logo {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.logo img {
+    height: 102px;
+    width: 118px;
+    border-radius: 104px
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 40px 40px 34px 48px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(9, 8, 8);
+    font-size: 25px;
+}
+
+.nav-list li a:hover {
+    color: white;
+}
+
+.bckImg {
+    background-image: url(bonss.jpg);
+    /* background-color: #3a3939; */
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 25%;
+    left: 19%;
+    /* right: 40%; */
+}
+
+.container .Headingtxt {
+    font-size: 50px;
+    text-shadow: green;
+}
+
+.container .smalltxt {
+    font-size: 25px;
+}
+
+.container input {
+    margin: 25px 19px 0px 6px;
+    padding: 13px 117px 14px 126px;
+    border-radius: 113px;
+    color: rgb(10, 10, 10);
+}
+
+.container button {
+    padding: 6px 29px 7px 25px;
+    margin: 26px 0px 0px -14px;
+    border-radius: 20px;
+    border-color: blue;
+}
+
+:hover.container button {
+    background-color: green;
+}
+
+footer {
+    color: rgb(231, 238, 238);
+    background-color: rgb(16, 16, 15);
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    padding: 75px 0px 0px 161px;
+}
+
+.footerlist img {
+    height: 149px;
+    width: 150px;
+    border-radius: 82px;
+}
+
+.contact {
+    /* margin: 10px 49px -24px -24px; */
+    padding: 15px 17px 31px 56px;
+}
+
+.payment {
+    padding: 10px 20px 30px 40px;
+}
+
+.socialmed {
+    padding: 10px 20px 30px 40px;
+}
+
+.developedby {
+    padding: 10px 20px 30px 40px;
+}

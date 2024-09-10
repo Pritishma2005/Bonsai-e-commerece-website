@@ -1,0 +1,48 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        img {
+            height: 200px;
+            width: 300px;
+        }
+        
+        .reserch {
+            margin: 79px 55px 52px 125px;
+            padding: 32px 27px 50px 48px;
+        }
+        
+        .amazom {
+            display: flex;
+            padding: 45px 0px 96px 0px;
+        }
+        
+        .daraz {
+            display: flex;
+            padding: 45px 0px 96px 0px;
+        }
+        
+        .ebay {
+            display: flex;
+            padding: 45px 0px 96px 0px;
+        }
+        
+        .college {
+            display: flex;
+            padding: 45px 0px 96px 0px;
+        }
+        
+        .wschool {
+            display: flex;
+            padding: 45px 0px 96px 0px;
+        }
+        
+        .section {
+            margin: 69px 0px 0px 184px;
+            padding: 45px 87px 0px 27px;
+        }
+        
+        .section h1 {
+            margin: -13px 35px 0px 449px;
+        }

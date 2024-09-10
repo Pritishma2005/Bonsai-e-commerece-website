@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .firstheading {
+            max-width: 940px;
+            margin: 0 auto;
+            padding: 30px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+
+        }
+
+        .Plants {
+            text-align: center col-lg-3 col-md-4 col-12;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 100px;
+            padding: 30px;
+            display: flex;
+        }
+
+        .Pot {
+            cursor: pointer;
+        }
+
+        .image {
+            transition: 0.3s all
+        }
+
+        .pot:hover img {
+            opacity: 0.7;
+        }
+
+
+        .Name {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .Price {
+            font-size: 17px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function cart() {
+            alert(" Added to cart ");
+        }  
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar_background">
+            <ul class="nav-list">
+                <div class="logo">
+                    <img src="Bonsai-.jpg" alt="">
+                </div>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Products page/products.html">Products</a></li>
+                <li><a href="../aboutus/aboutus.html">About Us</a></li>
+                <li><a href="../Blog/blog.html">Blog</a></li>
+                <li><a href="../research/reseach.html">Research</a></li>
+                <li><a href="./Feedbackform.html">Feedback form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- header top section start -->
+    <section class="firstheading">
+        <h1>Products page</h1>
+        <div class="Plants">
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Azalea Bonsai.jpg">
+                        <!-- Inline CSS -->
+                        <img src="images\Azalea Bonsai.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Azalea Bonsai</h5>
+                <h4 class="Price">Rs.2,000</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+
+
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Bougainvillea.jpg">
+                        <img src="images\Bougainvillea.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Bougainvillea</h5>
+                <h4 class="Price">Rs.3,000</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Chinese boxwood bonsai.jpg">
+                        <img src="images\Chinese boxwood bonsai.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Chinese boxwood</h5>
+                <h4 class="Price">Rs.5,000</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+
+        </div> <!---- first plant class ending -->
+
+        <div class="Plants">
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Dwarf Schefflera.jpg">
+                        <img src="images\Dwarf Schefflera.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Dwarf Schefflera</h5>
+                <h4 class="Price">Rs.2,500</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Jade Plant.jpg">
+                        <img src="images\Jade Plant.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Jade Plant</h5>
+                <h4 class="Price">Rs.5,000</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Japanese Black Pine Bonsai.jpg">
+                        <img src="images\Japanese Black Pine Bonsai.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Japanese Black Pine</h5>
+                <h4 class="Price">Rs.2,000</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+        </div> <!--second plant class ending-->
+
+        <div class="Plants">
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Juniper bonsai.jpg">
+                        <img src="images\Juniper bonsai.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Juniper</h5>
+                <h4 class="Price">Rs.3,500</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Money tree.jpg">
+                        <img src="images\Money tree.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Money tree</h5>
+                <h4 class="Price">Rs.4,000</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+
+            <div class="Pot">
+                <div class="image">
+                    <a href="images\Pomegranate Bonsai.jpg">
+                        <img src="images\Pomegranate Bonsai.jpg" width="280" height="300">
+                    </a>
+                </div>
+                <h5 class="Name">Pomegranate</h5>
+                <h4 class="Price">Rs.3,000</h4>
+                <button onClick="cart()">ADD TO CART</button>
+            </div>
+        </div> <!--third plant class ending -->
+    </section>
+    <footer>
+        <div class="footerlist">
+            <h3 class="BonsaiStore">Bonsai</h3>
+            <img src="Bonsai-.jpg" alt="">
+
+        </div>
+
+        <div class="contact">
+            <h3 class="Hcontact">Contact</h3>
+            <p><u>bonsaistrore87676@gmail.com</u></p>
+            <p><u>021-45544554</u></p>
+            <p><u>Newroad, Kathmandu</u></p>
+        </div>
+
+        <div class="payment">
+            <h3 class="pay">We accept</h3>
+            <p><u>e-sewa</u></p>
+            <p><u>Fone pay</u></p>
+            <p><u>Khalti</u></p>
+            <p><u>Bank transfer</u></p>
+        </div>
+
+        <div class="socialmed">
+            <h3 class="socmedia">Social Media</h3>
+            <p><u>Facebook</u></p>
+            <p><u>Instagram</u></p>
+            <p><u>Linked-In</u></p>
+
+        </div>
+
+        <div class="developedby">
+            <h3>Developed by</h3>
+            <p><u>Neha Pokhrel</u></p>
+            <p><u>Pritishma Kunwar</u></p>
+            <p><u>Unisha Yokbankong</u></p>
+            <p><u>Dhiraj Giri</u></p>
+            <p><u>Shirish Shrestha</u></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .nav-list {
+        /* width: 80%; */
+        display: flex;
+        align-items: center;
+        background-color: rgb(45, 243, 48);
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .logo img {
+        width: 90px;
+        border-radius: 50px;
+    }
+
+    .nav-list li {
+        list-style: none;
+        padding: 40px 40px 34px 48px;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: rgb(9, 8, 8);
+        font-size: 25px;
+    }
+
+    .nav-list li a:hover {
+        color: white;
+    }
+
+    .bckImg {
+        background-image: url(bonss.jpg);
+        /* background-color: #3a3939; */
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .container {
+        position: absolute;
+        top: 25%;
+        left: 19%;
+    }
+
+    .container .Headingtxt {
+        font-size: 50px;
+        /* text-shadow: green; */
+    }
+
+    .container .smalltxt {
+        font-size: 25px;
+    }
+
+    .container input {
+        margin: 25px 19px 0px 6px;
+        padding: 13px 117px 14px 126px;
+        border-radius: 113px;
+        color: rgb(10, 10, 10);
+    }
+
+    .container button {
+        padding: 6px 29px 7px 25px;
+        margin: 26px 0px 0px -14px;
+        border-radius: 20px;
+        border-color: blue;
+    }
+
+    :hover.container button {
+        background-color: green;
+    }
+
+    footer {
+        color: rgb(231, 238, 238);
+        background-color: rgb(16, 16, 15);
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        padding: 75px 0px 0px 161px;
+    }
+
+    .footerlist img {
+        height: 149px;
+        width: 150px;
+        border-radius: 82px;
+    }
+
+    .contact {
+        /* margin: 10px 49px -24px -24px; */
+        padding: 15px 17px 31px 56px;
+    }
+
+    .payment {
+        padding: 10px 20px 30px 40px;
+    }
+
+    .socialmed {
+        padding: 10px 20px 30px 40px;
+    }
+
+    .developedby {
+        padding: 10px 20px 30px 40px;
+    }
+</style>
